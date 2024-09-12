@@ -70,4 +70,4 @@ Upon running the program, you will be presented with a menu offering two main fe
 
 2. **Validate Tax Number**: Validate a VAT number by inputting the country code and VAT number.
 
-3. **Exit**: Exit the program.
+3. **Exit**: End the program. 
