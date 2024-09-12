@@ -25,6 +25,13 @@ The project utilizes external APIs to fetch tax data, location information, and 
 - **Purpose**: Fetches tax rates for both US states and global locations and validates VAT numbers.
 - **Reason for Choice**: The API provides real-time tax data and VAT validation, which is crucial for accurate tax calculations.
 
+## Integration Process
+
+1. **Location Retrieval**: The system starts by getting the public IP of the user using the IPify API.
+2. **Location-Based Tax Information**: Once the IP is retrieved, the location is determined using the IPstack API, which provides country and region codes.
+3. **Tax Calculation**: Depending on the user's location, the relevant tax rates are fetched via the Tax Data API. For US users, the state tax rates are fetched. For non-US users, global tax rates are retrieved.
+4. **VAT Validation**: For businesses, the system can validate VAT numbers using the Tax Data API.
+
 ## Prerequisites
 Before using this feature, ensure you have the following:
 - **Python 3.x** installed on your machine.
