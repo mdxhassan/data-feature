@@ -4,11 +4,11 @@ This is a Python project that allows users to:
 - Retrieve tax rates based on their location (using their public IP) and calculate sales tax.
 - Validate VAT numbers for different countries.
 - Get both US and global tax rates using the [Tax Data API](https://apilayer.com/marketplace/tax_data-api).
-  
+
 The project utilizes external APIs to fetch tax data, location information, and VAT validation to provide accurate tax-related information.
 
 ## Features
-- **Get Tax Rates**: Automatically retrieves the user's public IP, then fetches tax rate data based on their location. It supports both US and global tax rates.
+- **Get Tax Rates**: Automatically retrieves the user's public IP, then fetches tax rate data based on their location. 
 - **Validate Tax Number**: Allows users to validate VAT numbers from different countries using the Tax Data API.
 - **Sales Tax Calculation**: Given a product price, the program calculates the applicable sales tax based on location-specific rates.
 
@@ -31,7 +31,7 @@ Before using this feature, ensure you have the following:
 - **API keys** for the following services:
   - [IPstack API](https://ipstack.com/)
   - [Tax Data API](https://apilayer.com/marketplace/tax_data-api)
-  
+
 You can sign up for these services and obtain free API keys by visiting their respective websites.
 
 ## Setup Instructions
@@ -65,9 +65,9 @@ You can sign up for these services and obtain free API keys by visiting their re
 Upon running the program, you will be presented with a menu offering two main features:
 
 1. **Get Tax Rates**: Automatically retrieves your public IP, gets location data, and provides tax rates based on the region. The program supports US state-specific rates and global tax rates.
-   
+
     - Enter the product price to calculate the sales tax and total price based on the retrieved rates.
 
 2. **Validate Tax Number**: Validate a VAT number by inputting the country code and VAT number.
 
-3. **Exit**: End the program. 
+3. **Exit**: End the program.
