@@ -105,7 +105,7 @@ def main():
     while True:
         choice = show_menu()
 
-        if choice == '1':  # get Tax Rates
+        if choice == '1':  #get tax rates
             # automatically get the user's public IP address
             ip_address = get_public_ip()
             if not ip_address:
